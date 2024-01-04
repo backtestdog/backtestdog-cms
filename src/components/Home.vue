@@ -1,7 +1,11 @@
 <template>
-  <div>Home</div>
+  <div>{{ counterStore.name }}</div>
 </template>
 
-<script></script>
+<script setup>
+import { useCounterStore } from '@/store/counter'
+
+const counterStore = useCounterStore()
+</script>
 
 <style></style>
