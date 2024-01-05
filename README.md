@@ -9,5 +9,5 @@ node version >= v.18
 ### Packages
 
 - Vue
-- Vuex
+- Pinia
 - Vue-Router
