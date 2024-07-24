@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Button from "janlab-ui";
 export default function MainPanel() {
   return (
     <div>
